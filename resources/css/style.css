@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -127,12 +128,29 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+.navbar .btn-primary {
+    padding: 10px 15px; /* Ensure padding matches other navbar items */
+    font-size: 15px; /* Adjust font size to match other links */
+    color: #fff; /* Ensure text color is white */
+    background-color: #7cc576; /* Adjust button color */
+    border: none; /* Remove default border */
+    margin-left: 15px;
+}
+
+.navbar .btn-primary:hover {
+    transition: 0.5s;
+    background: #fff;
+    color: #7cc576;
+    border: 1px solid #4caf50;
+  }
+
 .navbar ul {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   align-items: center;
+
 }
 
 .navbar li {
@@ -354,6 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
+  font-family: 'Drukaatie Burti', sans-serif;
   margin: 0 0 30px 0;
   font-size: 48px;
   font-weight: 500;
@@ -364,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #aeaeae;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1581,6 +1600,7 @@ section {
   position: relative;
 }
 
+
 #footer::before {
   content: "";
   position: absolute;
@@ -1608,7 +1628,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Drukaatie Burti', sans-serif;
   padding: 30px 0 0 0;
   margin-bottom: 0;
 }
