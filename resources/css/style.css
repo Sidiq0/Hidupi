@@ -28,6 +28,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.btn-primary {
+    color: #fff; /* Ensure text color is white */
+    background-color: #7cc576; /* Adjust button color */
+    border: none; /* Remove default border */
+}
+
+.btn-primary:hover {
+    transition: 0.5s;
+    background: #fff;
+    color: #7cc576;
+    border: 1px solid #4caf50;
+  }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

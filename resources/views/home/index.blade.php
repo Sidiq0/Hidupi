@@ -69,8 +69,8 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-            <li><a href="#" class="nav-link scrollto" >login</a></li>
-            <li><a class="btn btn-primary" href="#contact">Join</a></li>
+            <li><a href="{{ route('login') }}" class="nav-link scrollto" >login</a></li>
+            <li><a class="btn btn-primary" href="{{ route('register') }}">Join</a></li>
         </ul>
         </nav>
             <!-- .navbar -->
