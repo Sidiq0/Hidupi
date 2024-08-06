@@ -34,11 +34,18 @@ h1, h2, h3, h4, h5, h6 {
     border: none; /* Remove default border */
 }
 
-.btn-primary:hover {
+
+.btn-primary:hover,.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
     transition: 0.5s;
-    background: #fff;
-    color: #7cc576;
-    border: 1px solid #4caf50;
+    background: #5ab652;
+  }
+
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active {
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5); /* Optional: Adjust shadow */
   }
 
 /*--------------------------------------------------------------
@@ -142,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .btn-primary {
+    text-transform: uppercase;
     padding: 10px 15px; /* Ensure padding matches other navbar items */
     font-size: 15px; /* Adjust font size to match other links */
     color: #fff; /* Ensure text color is white */
@@ -150,11 +158,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 15px;
 }
 
-.navbar .btn-primary:hover {
+.navbar .btn-primary:hover,.navbar .btn-primary:focus,
+.navbar .btn-primary:active,
+.navbar .btn-primary.active {
     transition: 0.5s;
-    background: #fff;
-    color: #7cc576;
-    border: 1px solid #4caf50;
+    color: #fff;
+    background: #5ab652;
+  }
+
+  .navbar .btn-primary:focus,
+  .navbar .btn-primary:active,
+  .navbar .btn-primary.active {
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5); /* Optional: Adjust shadow */
   }
 
 .navbar ul {

@@ -70,7 +70,7 @@
       <nav id="navbar" class="navbar">
         <ul>
             <li><a href="{{ route('login') }}" class="nav-link scrollto" >login</a></li>
-            <li><a class="btn btn-primary" href="{{ route('register') }}">Join</a></li>
+            <li><button class="btn btn-primary" onclick="window.location.href='{{ route('register') }}'">Join</button></li>
         </ul>
         </nav>
             <!-- .navbar -->
