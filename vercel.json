@@ -13,7 +13,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your.url.from.vercel.app",
+        "APP_URL": "https://hidupi.vercel.app",
         "APP_KEY": "base64:gOM86zls5b00x4uuwBRfrI4DtS3lpaRjw6cp7XBlAVA=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
