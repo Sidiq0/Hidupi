@@ -92,7 +92,7 @@
               <div class="row">
                 <div class="col-lg-6" data-aos="fade-right">
                   <div class="image">
-                    <img src="storage/assets/img/about.jpg" class="img-fluid" alt="">
+                    <img src="{{ Vite::asset('resources/img/about.jpg') }}" class="img-fluid" alt="">
                   </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
@@ -151,7 +151,7 @@
               <p>Export your accomplishments to CSV for seamless integration with other tools</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("storage/assets/img/services.jpg");' data-aos="fade-left" data-aos-delay="100"></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("{{ Vite::asset('resources/img/services.jpg') }}");' data-aos="fade-left" data-aos-delay="100"></div>
         </div>
 
       </div>
@@ -172,7 +172,7 @@
                 <p>
                     Hidupi turned my boring to-do list into a game I actually look forward to playing. I'm getting so much more done, and it's actually fun!
                 </p>
-                <img src="storage/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="{{ Vite::asset('resources/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
                 <h3>Budi</h3>
                 <h4>Software Engineer</h4>
               </div>
@@ -183,7 +183,7 @@
                 <p>
                     I never thought I'd be excited about doing chores, but Hidupi makes it feel like an adventure. I love earning points and seeing my progress!
                 </p>
-                <img src="storage/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="{{ Vite::asset('resources/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
                 <h3>Ayu</h3>
                 <h4>Designer</h4>
               </div>
@@ -194,7 +194,7 @@
                 <p>
                     Hidupi has completely transformed my productivity. I'm motivated, organized, and actually enjoying the process of achieving my goals.
                 </p>
-                <img src="storage/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="{{ Vite::asset('resources/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
                 <h3>Cinta</h3>
                 <h4>Store Owner</h4>
               </div>
@@ -205,7 +205,7 @@
                 <p>
                     This app is a lifesaver for someone like me who loves games. Hidupi makes being productive feel like a fun challenge, and I'm already seeing results.
                 </p>
-                <img src="storage/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="{{ Vite::asset('resources/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div>
@@ -224,27 +224,27 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in">
-            <img src="storage/assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-1.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
-            <img src="storage/assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-2.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="200">
-            <img src="storage/assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-3.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="300">
-            <img src="storage/assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-4.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="400">
-            <img src="storage/assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-5.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
-            <img src="storage/assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="{{ Vite::asset('resources/img/clients/client-6.png') }}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -265,7 +265,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="zoom-in">
               <div class="member-img">
-                <img src="storage/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="{{ Vite::asset('resources/img/team-1.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://github.com/Sidiq0"><i class="bi bi-github"></i></a>
                 </div>
