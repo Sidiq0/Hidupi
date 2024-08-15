@@ -8,6 +8,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/css/style.css',
+                'resources/sass/app.scss',
                 'resources/js/app.js',
                 'resources/js/main.js',
                 'resources/js/validate.js'
