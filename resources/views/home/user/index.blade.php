@@ -67,7 +67,7 @@
       <header class="header header-sticky p-0 mb-4">
         <div class="container-fluid border-bottom px-4">
           <button class="header-toggler" type="button" onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()" style="margin-inline-start: -14px;">
-            <i class="cil-star icon icon-lg"></i>
+            <i class="cil-menu icon icon-lg"></i>
           </button>
           <ul class="header-nav d-none d-lg-flex">
             <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
