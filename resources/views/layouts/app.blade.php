@@ -14,13 +14,10 @@
     </head>
     <body>
         <div>
-            <!-- Page nav-->
-            @include('layouts.nav')
-
-
             <!-- Page Sidebar-->
             @include('layouts.sidebar')
-
+            <!-- Page nav-->
+            @include('layouts.nav')
             <!-- Page Content -->
             <main>
                 {{ $slot }}

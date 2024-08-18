@@ -8,6 +8,7 @@
     </div>
     <ul class="sidebar-nav" data-coreui="navigation" data-simplebar>
         {{ $sidebar }}
+    </ul>
     <div class="sidebar-footer border-top d-none d-md-flex">
       <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
     </div>
